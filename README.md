@@ -1,23 +1,80 @@
-## Shopping Site
-Let's get started by installing Angular CLI v10 if it is not yet installed on your machine.
-`npm install -g @angular/cli`
+# Shopping Site  
 
-## First Step
-Clone the project and run `npm install`
+Welcome to the Shopping Site project! Follow the steps below to set up and run the application locally.  
 
-## Second Step 
-Run `npm install node-sass`
+## Prerequisites  
 
-## If faced with angular-devkit builder issue then follow the next step
-Install `npm i @angular-devkit/build-angular`
+- **Node.js** (Ensure Node.js is installed on your machine. [Download Node.js](https://nodejs.org))  
+- **Angular CLI** (Install globally if not already installed):  
+  ```bash  
+  npm install -g @angular/cli  
+  ```  
 
-## If faced with any AngularGettingStarted issues
-Run `npm install` once again
+## Setup Instructions  
 
-## Setting up the mock server and Third and Final Step
-Open the mock-server folder in an IDE and run `npm install` and execute `npm start` to start the server.
+### 1. Clone the Repository  
+Clone the project to your local machine and navigate to the project directory:  
+```bash  
+git clone <repository-url>  
+cd <project-directory>  
+```  
 
-## Development server
+### 2. Install Dependencies  
+Run the following command to install all required dependencies:  
+```bash  
+npm install  
+```  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### 3. Additional Setup  
 
+#### Install `node-sass`  
+If `node-sass` is not already installed, run:  
+```bash  
+npm install node-sass  
+```  
+
+#### Resolve `@angular-devkit/build-angular` Issue  
+If you encounter an issue with the Angular Devkit builder, install the required package:  
+```bash  
+npm install @angular-devkit/build-angular  
+```  
+
+#### Resolve `AngularGettingStarted` Issues  
+If you face any issues with Angular dependencies, run:  
+```bash  
+npm install  
+```  
+
+### 4. Setting Up the Mock Server  
+To set up and run the mock server:  
+1. Navigate to the `mock-server` folder:  
+   ```bash  
+   cd mock-server  
+   ```  
+2. Install dependencies:  
+   ```bash  
+   npm install  
+   ```  
+3. Start the server:  
+   ```bash  
+   npm start  
+   ```  
+
+## Running the Application  
+
+### Development Server  
+1. Run the Angular development server:  
+   ```bash  
+   ng serve  
+   ```  
+2. Open your browser and navigate to:  
+   ```
+   http://localhost:4200/  
+   ```  
+   The app will automatically reload whenever you make changes to the source files.  
+
+## Troubleshooting  
+- If you encounter any errors, ensure all dependencies are installed by running:  
+  ```bash  
+  npm install  
+  ```  
